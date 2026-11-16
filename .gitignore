@@ -1,0 +1,24 @@
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS files
+.DS_Store
+
+# Generated SQLite databases
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Generated large datasets
+data/input/events_100k.csv
+
+# Temporary files
+*.log
